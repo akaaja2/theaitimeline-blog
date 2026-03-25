@@ -1,0 +1,16 @@
+{
+  "name": "theaitimeline-blog",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy && npx pagefind --site _site"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.5",
+    "@11ty/eleventy-img": "^6.0.4",
+    "@11ty/eleventy-plugin-rss": "^2.0.4"
+  },
+  "devDependencies": {
+    "pagefind": "^1.4.0"
+  }
+}
